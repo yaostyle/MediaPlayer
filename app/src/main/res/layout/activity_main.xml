@@ -12,7 +12,7 @@
         android:id="@+id/name_of_music"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Crazy Gaem"
+        android:text="Crazy Game"
         android:padding="16dp"
         android:textSize="24sp"/>
 
@@ -22,13 +22,29 @@
         android:layout_height="wrap_content"
         android:text="Play"
         android:padding="16dp"
-        android:textSize="16sp"/>
+        android:textSize="16sp"
+        android:onClick="playMusic"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/btn_stop"
         android:text="Stop"
-        android:textSize="16sp"/>
+        android:textSize="16sp"
+        android:onClick="stopMusic"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Volume + "
+        android:textSize="16sp"
+        android:onClick="volUp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Volume - "
+        android:textSize="16sp"
+        android:onClick="volDown"/>
 
 </LinearLayout>
